@@ -56,14 +56,14 @@ export function Footer() {
                   Our Approach
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   href="/portfolio"
                   className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                 >
                   Portfolio
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   href="/contact"
