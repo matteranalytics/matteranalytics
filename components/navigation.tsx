@@ -1,6 +1,7 @@
 "use client"
 
-import Link from "next/link"
+import Image from "next/image";
+import Link from "next/link";
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 import { useState } from "react"
@@ -14,8 +15,14 @@ export function Navigation() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
-              <span className="text-accent-foreground font-bold text-lg">M</span>
+            <div className="w-18 h-18 rounded-lg flex items-center justify-center overflow-hidden">
+              <Image
+                src="/ma_logo.png"          // put your file in /public/logo.png
+                alt="Matter Analytics logo"
+                width={100}
+                height={100}
+                // className="object-contain"
+              />
             </div>
             <span className="font-bold text-xl text-foreground">Matter Analytics</span>
           </Link>

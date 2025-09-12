@@ -14,7 +14,7 @@
   --popover-foreground: oklch(0.2 0 0); /* Dark text on popovers */
   --primary: oklch(0.35 0 0); /* Professional gray (#374151) */
   --primary-foreground: oklch(1 0 0); /* White text on primary */
-  --secondary: oklch(0.6 0.15 264); /* Accent blue (#6366f1) */
+  --secondary: #006dc7; /* Accent blue (#6366f1) */
   --secondary-foreground: oklch(1 0 0); /* White text on secondary */
   --muted: oklch(0.98 0 0); /* Light muted background */
   --muted-foreground: oklch(0.45 0 0); /* Muted text color */
@@ -33,7 +33,7 @@
   --radius: 0.5rem;
   --sidebar: oklch(0.35 0 0); /* Sidebar background - professional gray */
   --sidebar-foreground: oklch(1 0 0); /* White sidebar text */
-  --sidebar-primary: oklch(0.6 0.15 264); /* Sidebar primary - accent blue */
+  --sidebar-primary: #006dc7; /* Sidebar primary - accent blue */
   --sidebar-primary-foreground: oklch(1 0 0); /* White sidebar primary text */
   --sidebar-accent: oklch(0.45 0.15 140); /* Sidebar accent - green */
   --sidebar-accent-foreground: oklch(1 0 0); /* White sidebar accent text */
@@ -68,7 +68,7 @@
   --chart-5: oklch(0.645 0.246 16.439);
   --sidebar: oklch(0.205 0 0);
   --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary: #006dc7;
   --sidebar-primary-foreground: oklch(0.985 0 0);
   --sidebar-accent: oklch(0.269 0 0);
   --sidebar-accent-foreground: oklch(0.985 0 0);

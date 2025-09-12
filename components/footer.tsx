@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image";
 import { Mail, Phone, MapPin } from "lucide-react"
 
 export function Footer() {
@@ -8,12 +9,18 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
-                <span className="text-accent-foreground font-bold text-lg">M</span>
-              </div>
-              <span className="font-bold text-xl">Matter Analytics</span>
+            <Link href="/" className="flex items-center space-x-2">
+            <div className="text-left w-18 h-18 rounded-lg flex items-center justify-center overflow-hidden">
+              <Image
+                src="/ma_logo.png"          // put your file in /public/logo.png
+                alt="Matter Analytics logo"
+                width={100}
+                height={100}
+                // className="object-contain"
+              />
             </div>
+            <span className="font-bold text-xl text-foreground text-white text-left">Matter Analytics</span>
+          </Link>
             <p className="text-primary-foreground/80 mb-4 max-w-md">
               Transforming businesses through intelligent data solutions and cutting-edge AI/ML consulting services.
             </p>
@@ -81,7 +88,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
-          <p className="text-primary-foreground/60 text-sm">© 2024 Matter Analytics. All rights reserved.</p>
+          <p className="text-primary-foreground/60 text-sm">© 2025 Matter Analytics. All rights reserved.</p>
         </div>
       </div>
     </footer>
