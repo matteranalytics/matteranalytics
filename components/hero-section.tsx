@@ -35,7 +35,7 @@ export function HeroSection() {
             </div>
             <h3 className="text-lg font-semibold text-foreground mb-2">AI Strategy</h3>
             <p className="text-muted-foreground">
-              Develop comprehensive AI strategies tailored to your business objectives and industry requirements.
+              Develop comprehensive AI strategies & applications tailored to your business objectives and industry requirements.
             </p>
           </div>
           <div className="text-center">
@@ -44,7 +44,7 @@ export function HeroSection() {
             </div>
             <h3 className="text-lg font-semibold text-foreground mb-2">Data Analytics</h3>
             <p className="text-muted-foreground">
-              Extract meaningful patterns and insights from your data using advanced analytical techniques.
+              Extract meaningful patterns and insights from your data using advanced analytical techniques guiding strategic decision-making.
             </p>
           </div>
           <div className="text-center">
