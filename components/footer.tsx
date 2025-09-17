@@ -86,10 +86,22 @@ export function Footer() {
             </ul>
           </div>
         </div>
-
-        <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
-          <p className="text-primary-foreground/60 text-sm">© 2025 Matter Analytics. All rights reserved.</p>
-        </div>
+        <div className="border-t border-border mt-8 pt-8 text-center text-muted">
+            <p>
+              &copy; 2025 Matter Analytics. All rights reserved.
+              <span className="mx-2">•</span>
+              Designed & Developed by{" "}
+              <a
+                href="https://omosdesigns.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-primary underline-offset-4 hover:underline"
+                aria-label="Visit Omos Designs website (opens in a new tab)"
+              >
+                Omos Designs
+              </a>
+            </p>
+          </div>
       </div>
     </footer>
   )

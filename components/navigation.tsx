@@ -44,7 +44,13 @@ export function Navigation() {
             <Link href="/contact" className="text-foreground hover:text-accent transition-colors">
               Contact
             </Link>
-            <Button className="bg-accent text-accent-foreground hover:bg-accent/90">Get Started</Button>
+            <Link
+              href="/contact"
+            >
+              <Button className="bg-accent text-accent-foreground hover:bg-accent/90">
+                Get Started
+              </Button>
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -94,9 +100,13 @@ export function Navigation() {
               >
                 Contact
               </Link>
-              <div className="px-3 py-2">
-                <Button className="w-full bg-accent text-accent-foreground hover:bg-accent/90">Get Started</Button>
-              </div>
+              <Link
+                href="/contact"
+              >
+                <div className="px-3 py-2">
+                  <Button className="w-full bg-accent text-accent-foreground hover:bg-accent/90">Get Started</Button>
+                </div>
+              </Link>
             </div>
           </div>
         )}
